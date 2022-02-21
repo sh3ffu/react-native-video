@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C24D2FD27C4499A008F5986 /* RNPhotosFrameworkExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C24D2FC27C4499A008F5986 /* RNPhotosFrameworkExtension.m */; };
+		7C24D2FE27C4499A008F5986 /* RNPhotosFrameworkExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C24D2FC27C4499A008F5986 /* RNPhotosFrameworkExtension.m */; };
 		D1107C0A2110259000073188 /* UIView+FindUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1107C032110259000073188 /* UIView+FindUIViewController.m */; };
 		D1107C0B2110259000073188 /* UIView+FindUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1107C032110259000073188 /* UIView+FindUIViewController.m */; };
 		D1107C0C2110259000073188 /* RCTVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1107C052110259000073188 /* RCTVideo.m */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRCTVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTVideo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		641E28441F0EEC8500443AF6 /* libRCTVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTVideo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C24D2FB27C448EA008F5986 /* RNPhotosFrameworkExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNPhotosFrameworkExtension.h; path = Video/RNPhotosFrameworkExtension.h; sourceTree = "<group>"; };
+		7C24D2FC27C4499A008F5986 /* RNPhotosFrameworkExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNPhotosFrameworkExtension.m; path = Video/RNPhotosFrameworkExtension.m; sourceTree = "<group>"; };
 		D1107C012110259000073188 /* RCTVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTVideoPlayerViewController.h; path = Video/RCTVideoPlayerViewController.h; sourceTree = "<group>"; };
 		D1107C022110259000073188 /* RCTVideoPlayerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTVideoPlayerViewControllerDelegate.h; path = Video/RCTVideoPlayerViewControllerDelegate.h; sourceTree = "<group>"; };
 		D1107C032110259000073188 /* UIView+FindUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FindUIViewController.m"; path = "Video/UIView+FindUIViewController.m"; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				7C24D2FC27C4499A008F5986 /* RNPhotosFrameworkExtension.m */,
+				7C24D2FB27C448EA008F5986 /* RNPhotosFrameworkExtension.h */,
 				D1107C072110259000073188 /* RCTVideo.h */,
 				D1107C052110259000073188 /* RCTVideo.m */,
 				D1107C092110259000073188 /* RCTVideoManager.h */,
@@ -163,6 +169,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -183,6 +190,7 @@
 			files = (
 				D1107C0A2110259000073188 /* UIView+FindUIViewController.m in Sources */,
 				D1107C102110259000073188 /* RCTVideoPlayerViewController.m in Sources */,
+				7C24D2FD27C4499A008F5986 /* RNPhotosFrameworkExtension.m in Sources */,
 				D1107C0E2110259000073188 /* RCTVideoManager.m in Sources */,
 				D1107C0C2110259000073188 /* RCTVideo.m in Sources */,
 			);
@@ -194,6 +202,7 @@
 			files = (
 				D1107C0B2110259000073188 /* UIView+FindUIViewController.m in Sources */,
 				D1107C112110259000073188 /* RCTVideoPlayerViewController.m in Sources */,
+				7C24D2FE27C4499A008F5986 /* RNPhotosFrameworkExtension.m in Sources */,
 				D1107C0F2110259000073188 /* RCTVideoManager.m in Sources */,
 				D1107C0D2110259000073188 /* RCTVideo.m in Sources */,
 			);
